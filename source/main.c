@@ -1,7 +1,7 @@
 #include <3ds.h>
 #include <stdio.h>
 
-{
+(
   // Initializations
   srvInit();        // services
   aptInit();        // applets
@@ -49,4 +49,4 @@
 
   // Return to hbmenu
   return 0;
-}
+)
