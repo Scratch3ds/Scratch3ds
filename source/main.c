@@ -3,16 +3,17 @@
 
 (
   // Initializations
-  srvInit();        // services
-  aptInit();        // applets
-  hidInit(NULL);    // input
+  srvInit();		// services
+  aptInit(); 		// applets
+  hidInit(NULL); 	// input
   gfxInitDefault(); // graphics
-  gfxSet3D(false);  // stereoscopy / 3D
-  u32 kDown;        // keys down
-  u32 kHeld;        // keys pressed
-  u32 kUp;          // keys up
+  gfxSet3D(false); 	// stereoscopy / 3D
+  u32 kDown; 		// keys down
+  u32 kHeld; 		// keys pressed
+  u32 kUp;			// keys up
 
   printf("PLACEHOLDER FOR SCRATCH3DS\n"); // Placeholder text
+  printf("Press START to end\n"); // Placeholder text
   
   // Main loop
   while (aptMainLoop())
@@ -49,4 +50,4 @@
 
   // Return to hbmenu
   return 0;
-)
+);
