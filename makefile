@@ -30,15 +30,16 @@ include $(DEVKITARM)/3ds_rules
 #     - icon.png
 #     - <libctru folder>/default_icon.png
 #---------------------------------------------------------------------------------
-TARGET		:=	$(notdir $(CURDIR))
+TARGET		:=	releases/scratch3ds
 BUILD		:=	build
 SOURCES		:=	source
-DATA		:=	assets
+DATA		:=	data
 INCLUDES	:=	include
-APP_TITLE   :=  Scratch3ds
-APP_DESCRIPTION := Scratch for the 3DS!
-APP_AUTHOR  :=  scratch3ds
-ICON := assets/icon.png
+# ROMFS		:=	romfs
+# APP_TITLE   :=  Scratch3ds
+# APP_DESCRIPTION := Scratch for the 3ds!
+# APP_AUTHOR  :=  scratch3ds team
+# ICON        :=  icon.png
 #---------------------------------------------------------------------------------
 # options for code generation
 #---------------------------------------------------------------------------------
