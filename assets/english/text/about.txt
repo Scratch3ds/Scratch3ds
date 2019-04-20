@@ -1,6 +1,6 @@
 About Scratch3ds
 ________________________
-Scratch3ds v0.01 by Shaymin524
+Scratch3ds Version X by Shaymin524
 Based on Scratch 2.0 by MIT and the Lifelong Kindergarten Media Group
 Programming: Shaymin524 (@Shaymin524 on Scratch)
 Graphics Design: HeyHeyPizza111
