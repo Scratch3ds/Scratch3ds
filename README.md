@@ -9,5 +9,4 @@ Anyone may join, simply ask at scratch.mit.edu/discuss/topic/312431/, join the o
 
 
 CREDITS:
-Gadzooks2, HeyHeyPizza111 and TolerableDruid6 for literally being there from the start
-Manurocker95 for their example repo
+Gadzooks2, HeyHeyPizza111 and TolerableDruid6 for literally being there from the start and Manurocker95 for their example repo
