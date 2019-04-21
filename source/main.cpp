@@ -27,10 +27,11 @@ int main()
 	printf("This is the placeholder for Scratch3ds");
 
 	consoleInit(GFX_BOTTOM, NULL);
+	
 	printf("Press Start to exit");
 
 
-	//Main loop
+	// Main loop
 	while (aptMainLoop())
 	{
 		hidScanInput();
