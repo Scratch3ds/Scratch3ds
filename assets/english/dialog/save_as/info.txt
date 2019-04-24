@@ -1,0 +1,1 @@
+This is where the graphics files for the save dialog box are stored.
