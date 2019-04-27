@@ -23,13 +23,28 @@ int main()
 	// Initialize the services
 	gfxInitDefault();
 	consoleInit(GFX_TOP, NULL);
+	
+	int version_major;
+	int version_minor;
+	int version_patch;
+	
+	version_major = 0;
+	version_minor = 0;
+	version_patch = 2;
 
-	printf("This is the placeholder for Scratch3ds");
+	printf("This is the placeholder for Scratch3ds\n\n");
+	
+	printf("About Scratch3ds\n");
+	printf("________________________\n");
+	printf("Scratch3ds Version %i.%i.%i by Gadzooks2\n", version_major, version_minor, version_patch);
+	printf("Based on Scratch 2.0 by MIT and the\nLifelong Kindergarten Media Group\n");
+	printf("Programming: Gadzooks2 (@Shaymin524 on Scratch)\n");
+	printf("Graphics Design: HeyHeyPizza111\n");
+	printf("UI Design & Concept: TolerableDruid6 (@dude341 on Scratch)\n");
 
 	consoleInit(GFX_BOTTOM, NULL);
 	
 	printf("Press Start to exit");
-
 
 	// Main loop
 	while (aptMainLoop())
