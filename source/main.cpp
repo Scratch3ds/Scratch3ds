@@ -17,7 +17,7 @@ typedef SSIZE_T ssize_t;
 
 #include <3ds.h>
 #include <stdio.h>
-
+#include <download.h>
 int main()
 {
 	// Initialize the services
@@ -28,6 +28,9 @@ int main()
 
 	consoleInit(GFX_BOTTOM, NULL);
 	
+	gfxSetDoubleBuffering(GFX_BOTTOM, false);
+	u8* fb = gfxGetFrameBuffer(GFX_BOTTOM, GFX_LEFT, NULL, NULL);
+	memcpy(fb, download, download_size);
 	printf("Press Start to exit");
 
 
