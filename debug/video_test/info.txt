@@ -1,0 +1,3 @@
+320.png - Graphical test for lower screen
+400.png - Graphical test for upper screen
+downscale.png - Test image to be used to test downscaling algroithm, as the Scratch stage has a bigger resoulution than the 3DS top screen (480x360 vs 400x240)
