@@ -10,7 +10,7 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 
 * Medical or neurological disorders, such as illnesses or autism
-* Viewpoints or opinion, be it political, technical or otherwise#
+* Viewpoints or opinion, be it political, technical or otherwise
 
 # Our Standards
 
