@@ -37,7 +37,7 @@ int main()
 	printf("About Scratch3ds\n");
 	printf("________________________\n");
 	printf("Scratch3ds Version %i.%i.%i by Gadzooks2\n", version_major, version_minor, version_patch);
-	printf("Based on Scratch 2.0 by MIT and the\nLifelong Kindergarten Media Group\n");
+	printf("Based on Scratch 2.0 by MIT and the Lifelong Kind-\nergarten Media Group\n");
 	printf("Programming: Gadzooks2 (@Shaymin524 on Scratch)\n");
 	printf("Graphics Design: HeyHeyPizza111\n");
 	printf("UI Design & Concept: TolerableDruid6 (@dude341 on Scratch)\n");

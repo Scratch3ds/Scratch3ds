@@ -36,10 +36,10 @@ SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
 # ROMFS		:=	romfs
-# APP_TITLE   :=  Scratch3ds
-# APP_DESCRIPTION := Scratch for the 3ds!
-# APP_AUTHOR  :=  scratch3ds team
-# ICON        :=  icon.png
+APP_TITLE   :=  Scratch3ds
+APP_DESCRIPTION := Scratch for the 3ds!
+APP_AUTHOR  :=  scratch3ds team
+ICON        :=  icon.png
 #---------------------------------------------------------------------------------
 # options for code generation
 #---------------------------------------------------------------------------------
