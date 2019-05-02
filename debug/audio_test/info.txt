@@ -1,2 +1,0 @@
-BGM_SAMPLE.mp3, BGM_SAMPLE.ogg, BGM_SAMPLE.wav and BGM_SAMPLE2: To be used as an audio test in various formats.
-BGM_SAMPLE.mid: To be used to test MIDI playback (MIDI may be used for note blocks)
