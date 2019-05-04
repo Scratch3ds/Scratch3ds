@@ -31,9 +31,9 @@ int main()
 	version_major = 0;
 	version_minor = 0;
 	version_patch = 2;
-
-	printf("This is the placeholder for Scratch3ds\n\n");
 	
+	printf("This is the placeholder for Scratch3ds\n\n");
+	// Right now, the below message is hardcoded in. Rather, it should read & print from about.txt itself.
 	printf("About Scratch3ds\n");
 	printf("________________________\n");
 	printf("Scratch3ds Version %i.%i.%i by Gadzooks2\n", version_major, version_minor, version_patch);
