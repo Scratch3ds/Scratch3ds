@@ -1,7 +1,7 @@
 About Scratch3ds
 ________________________
 Scratch3ds Version %i.%i.%i by Gadzooks2
-Based on Scratch 2.0 by MIT and the Lifelong Kindergarten Media Group
-Programming: Gadzooks2 (@Shaymin524 on Scratch)
-Graphics Design: HeyHeyPizza111
+Based on Scratch 2.0 by MIT and the Lifelong \n  Kindergarten Media Group
+Programming: Gadzooks2 (@Shaymin524 on Scratch), -_Sand_Turtle_-
+Graphics Design: HeyHeyPizza111 (@HeyHeyPizza111 on Scratch)
 UI Design & Concept: TolerableDruid6 (@dude341 on Scratch)
