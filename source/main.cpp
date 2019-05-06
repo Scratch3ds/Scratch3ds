@@ -17,6 +17,8 @@ typedef SSIZE_T ssize_t;
 
 #include <3ds.h>
 #include <stdio.h>
+#include <iostream>
+#include <fstream>
 
 int main()
 {
@@ -27,21 +29,28 @@ int main()
 	int version_major;
 	int version_minor;
 	int version_patch;
+	ifstream about_txt;
+	
+	about_txt.open("../assets/english/text/about.txt")
 	
 	version_major = 0;
 	version_minor = 0;
 	version_patch = 2;
-
-	printf("This is the placeholder for Scratch3ds\n\n");
 	
-	printf("About Scratch3ds\n");
-	printf("________________________\n");
-	printf("Scratch3ds Version %i.%i.%i by Gadzooks2\n", version_major, version_minor, version_patch);
-	printf("Based on Scratch 2.0 by MIT and the Lifelong \n Kindergarten Media Group\n");
-	printf("Programming: Gadzooks2 (@Shaymin524 on Scratch)\n");
-	printf("Graphics Design: HeyHeyPizza111\n");
-	printf("UI Design & Concept: TolerableDruid6 (@dude341 on Scratch)\n");
-
+	printf("This is the placeholder for Scratch3ds\n\n")
+	
+	while (getline(about_txt, line)){
+		if (line.find("%i.%i.%i")){
+			printf(line, version_major, version_minor, version_patch)
+		}
+		else (){
+			printf(line)
+		}
+		printf("\n")
+	}
+	
+	about_txt.close()
+	
 	consoleInit(GFX_BOTTOM, NULL);
 	
 	printf("Press Start to exit");
