@@ -18,6 +18,10 @@ typedef SSIZE_T ssize_t;
 #include <3ds.h>
 #include <stdio.h>
 
+//for reading the about.txt so it's not hardcoded
+#include <fstream>
+#include <string>
+
 int main()
 {
 	// Initialize the services
@@ -32,15 +36,20 @@ int main()
 	version_minor = 0;
 	version_patch = 2;
 	
+	ifstream about_file;
+	about_file.open("about.txt");
+
+	
+
 	printf("This is the placeholder for Scratch3ds\n\n");
-	// Right now, the below message is hardcoded in. Rather, it should read & print from about.txt itself.
-	printf("About Scratch3ds\n");
-	printf("________________________\n");
-	printf("Scratch3ds Version %i.%i.%i by Gadzooks2\n", version_major, version_minor, version_patch);
-	printf("Based on Scratch 2.0 by MIT and the Lifelong Kind-\n-ergarten Media Group\n");
-	printf("Programming: Gadzooks2 (@Shaymin524 on Scratch)\n");
-	printf("Graphics Design: HeyHeyPizza111\n");
-	printf("UI Design & Concept: TolerableDruid6 (@dude341 on Scratch)\n");
+	
+	ifstream about_file;
+	about_file.open("about.txt");
+
+	if (about_file.fail((){
+	cerr << "Error opening about.txt" << endl;
+	exit(1);
+	}
 
 	consoleInit(GFX_BOTTOM, NULL);
 	
