@@ -41,13 +41,8 @@ int main()
 
 	printf("This is the placeholder for Scratch3ds\n\n");
 	
-	ifstream about_file;
+	std::ifstream about_file;
 	about_file.open("about.txt");
-
-	if (about_file.fail((){
-	cerr << "Error opening about.txt" << endl;
-	exit(1);
-	}
 
 	consoleInit(GFX_BOTTOM, NULL);
 	
