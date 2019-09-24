@@ -40,6 +40,7 @@ APP_TITLE   :=  Scratch3ds
 APP_DESCRIPTION := Scratch for the 3ds!
 APP_AUTHOR  :=  scratch3ds team
 ICON        :=  icon.png
+NO_SMDH     :=  1
 #---------------------------------------------------------------------------------
 # options for code generation
 #---------------------------------------------------------------------------------
