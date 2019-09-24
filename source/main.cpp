@@ -36,9 +36,7 @@ int main()
 	version_minor = 0;
 	version_patch = 2;
 	
-	ifstream about_file;
-	about_file.open("about.txt");
-
+	
 	
 
 	printf("This is the placeholder for Scratch3ds\n\n");
