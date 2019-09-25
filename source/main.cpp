@@ -21,6 +21,7 @@ typedef SSIZE_T ssize_t;
 //for reading the about.txt so it's not hardcoded
 #include <fstream>
 #include <string>
+#include <iostream>
 
 int main()
 {
@@ -43,6 +44,12 @@ int main()
 	
 	std::ifstream about_file;
 	about_file.open("about.txt");
+
+	if (about_file.fail())
+	{
+		std::cerr << "file has failed to load\n";
+		exit(1);
+	}
 
 	consoleInit(GFX_BOTTOM, NULL);
 	
